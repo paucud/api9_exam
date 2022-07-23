@@ -1,0 +1,35 @@
+.pageHeader h1 {
+    background-color: transparent;
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 0px 0px 10px 1px $orange;
+    padding: 20px;
+    font-size: $sizeXl;
+    color: $orange;
+}
+
+.greeting {
+    font-size: $sizeLg;
+    color: $dark;
+    text-align: center;
+    padding: 25px;
+}
+
+.article p {
+    font-size: $sizeMd;
+    color: $dark;
+}
+
+.userName {
+    font-size: $sizeXl;
+    color: $dark;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: $orange;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 2px $orange;
+}
